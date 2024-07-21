@@ -6,6 +6,7 @@
     <title>Footer Example</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -46,10 +47,32 @@
             
             <hr class="my-6 border-[#d86943]">
             
-            <div class="flex">
-                <a href="#">
+            <div class="flex flex-col md:flex-row justify-between">
+                <a class="mb-6" href="#">
                     <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="codespace-logo">
                 </a>
+
+                <section>
+                    <a class="inline-block mx-2 active:text-zinc-50" 
+                      href="https://instagram.com/codespaceza" target="_blank">
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    </a>
+
+                    <a class="inline-block mx-2 active:text-zinc-50" 
+                      href="https://www.facebook.com/codespaceza" target="_blank">
+                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                    </a>
+
+                    <a class="inline-block mx-2 active:text-zinc-50" 
+                      href="https://www.youtube.com/channel/UCfmXJliguiwBv2QlRzWdrxA" target="_blank">
+                        <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+                    </a>
+
+                    <a class="inline-block mx-2 active:text-zinc-50" 
+                      href="https://www.linkedin.com/school/codespaceza/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                    </a>
+                </section>
             </div>
 
         </div><!-- End of container element -->
